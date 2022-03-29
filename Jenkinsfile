@@ -12,8 +12,8 @@ pipeline {
             }
         }
         stages {
-            sh '/usr/bin/pip install -r requirements.txt'
-            sh 'python -m py_compile Flask.py'
+            //sh '/usr/bin/pip install -r requirements.txt'
+            sh 'python -m py_compile Flask11.py'
         }
     }
 }
