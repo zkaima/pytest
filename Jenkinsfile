@@ -6,7 +6,7 @@ pipeline {
                 // One or more steps need to be included within the steps block.
                 agent {
                     docker {
-                        image 'python:3.8-alpine'
+                        image 'python:3-alpine'
                     }
                 }
             }
