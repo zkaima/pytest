@@ -12,7 +12,7 @@ pipeline {
             }
         }
         stages {
-            sh 'pip install -r requirements.txt'
+            sh '/usr/bin/pip install -r requirements.txt'
             sh 'python Flask.py'
         }
     }
