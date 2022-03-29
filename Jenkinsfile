@@ -8,7 +8,7 @@ pipeline {
                 }
             }
             steps {
-                sh 'python -m py_compile Flask11.py'
+                sh 'python  Flask11.py'
             }
         }
     }
