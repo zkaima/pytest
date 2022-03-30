@@ -8,7 +8,8 @@ pipeline {
                 }
             }
             steps {
-                sh 'python  Flask11.py'
+                sh 'pip install -r requirements.txt'
+                sh 'python  Flask.py'
             }
         }
     }
